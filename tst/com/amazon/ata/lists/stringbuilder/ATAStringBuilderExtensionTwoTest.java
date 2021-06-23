@@ -1,4 +1,4 @@
-package com.amazon.ata.lists.classroom.stringbuilder;
+package com.amazon.ata.lists.stringbuilder;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,11 +1,6 @@
 ## ATAStringBuilder
 
-**Branch name:** lists-classroom
-
-**RDE workflow:** 
-* lists-string-builder-completion
-* lists-string-builder-extension-one
-* lists-string-builder-extension-two
+**GitHub repo:** [ebd-lists-ata-string-builder](https://github.com/LambdaSchool/ebd-lists-ata-string-builder)
 
 This activity will provide you with practice interacting with the List 
 interface. We will be building our own String builder. Remember, that
@@ -32,9 +27,9 @@ the list. Can we use a method of the class to do this?
 We will be implementing the below methods for completion. There are
 unit tests in the class `ATAStringBuilderCompletionTests` so that you
 can validate the code you have written. You can run these from IntelliJ 
-or using the rde workflow:
+or using the Gradle command:
 
-`lists-string-builder-completion`
+`./gradlew -q clean :test --tests com.amazon.ata.lists.stringbuilder.ATAStringBuilderCompletionTest`
 
 Each of the following methods have Javadocs in the class for you to 
 learn about the methods behavior.
@@ -77,7 +72,7 @@ the object you are manipulating. Use the return statement suggested above.
   * `ATAStringBuilder append(String str)`
   * `ATAStringBuilder insert(int offset, char c`
   * `char charAt(int index)`
-* Workflow `lists-string-builder-completion` succeeds
+* Running `./gradlew -q clean :test --tests com.amazon.ata.lists.stringbuilder.ATAStringBuilderCompletionTest` succeeds
 
 ### Extension One
 Implement the methods below that let you manipulate specific characters:
@@ -87,9 +82,9 @@ Implement the methods below that let you manipulate specific characters:
 
 There are unit tests in the class `ATAStringBuilderExtensionOneTests` so
 that you can validate the code you have written. You can run these from
-IntelliJ or using the rde workflow:
+IntelliJ or using the Gradle command:
 
-`lists-string-builder-extension-one`
+`./gradlew -q clean :test --tests com.amazon.ata.lists.stringbuilder.ATAStringBuilderExtensionOneTest`
 
 ### Extension Two
 Implement the methods below:
@@ -100,9 +95,9 @@ Implement the methods below:
 
 There are unit tests in the class `ATAStringBuilderExtensionTwoTests` so
 that you can validate the code you have written. You can run these from
-IntelliJ or using the rde workflow:
+IntelliJ or using the Gradle command:
 
-`lists-string-builder-extension-two`
+`./gradlew -q clean :test --tests com.amazon.ata.lists.stringbuilder.ATAStringBuilderExtensionTwoTest`
 
 ### Commit & Push
 
